@@ -19,6 +19,7 @@ public class Sanity{
             }
         }else{
             JFrame error = new JFrame("Sanity: Error 💔");
+            error.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             error.setLayout(new FlowLayout());
             JLabel text = new JLabel("User entered a nonexistent path. Please enter a valid path.");
             error.add(text);

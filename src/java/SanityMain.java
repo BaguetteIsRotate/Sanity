@@ -34,7 +34,7 @@ public class SanityMain{
         JTextArea label = new JTextArea();
         JScrollPane pane = new JScrollPane(label,JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED,JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
         pane.setWheelScrollingEnabled(true);
-        pane.setPreferredSize(new Dimension(700,300) );
+        pane.setPreferredSize(new Dimension(600,200) );
         label.setEditable(false);
         label.setLineWrap(true);
         pane.setVisible(false);
@@ -58,4 +58,3 @@ public class SanityMain{
 
     }
 }
-//"/Users/lordkat/Desktop/untitled folder 4"

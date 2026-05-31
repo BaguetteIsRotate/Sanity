@@ -1,23 +1,35 @@
 package src.java;
 import java.util.*;
+import java.util.concurrent.Flow;
 import java.io.*;
 import javax.swing.*;
+import javax.swing.border.Border;
 
 import java.awt.*;
 import java.awt.event.*;
 public class SanityMain{
     public static void main(String[] args){
         JFrame baguette = new JFrame("Sanity");
-        baguette.setLayout(new FlowLayout());
-        baguette.add(new JLabel("Enter file path"));
+        baguette.setLayout(new BorderLayout());
+        baguette.add(new JLabel("Enter file path:"));
         baguette.setSize(700,300);
         baguette.setLocationRelativeTo(null);
         baguette.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        JTextField text = new JTextField(30);
-        baguette.add(text);
+        
+        JPanel top= new JPanel(new FlowLayout());
 
+
+        JTextField text = new JTextField(30);
+        top.add(text);
+        
         JButton button = new JButton("Browse");
-        baguette.add(button);
+        top.add(button);
+
+        JButton button2 = new JButton("Search");
+        top.add(button2);
+
+        baguette.add(top,BorderLayout.PAGE_START);
+
         button.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e){
                 JFileChooser chooser = new JFileChooser();
@@ -38,7 +50,13 @@ public class SanityMain{
         label.setEditable(false);
         label.setLineWrap(true);
         pane.setVisible(false);
-        baguette.add(pane);
+        
+        JPanel right= new JPanel(new FlowLayout());
+
+        right.add(pane);
+
+        baguette.add(right, BorderLayout.CENTER);
+
         baguette.setVisible(true);
 
         text.addActionListener(new ActionListener() {
@@ -55,6 +73,10 @@ public class SanityMain{
                 baguette.revalidate();
             }
         });
-
+        button2.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e){
+                text.postActionEvent();
+            }
+        });
     }
 }

@@ -27,7 +27,7 @@ At least, it will once I get it to start working.
 # Fun stuff
 ---
 Current design for the UI:
-<img width="1883" height="2009" alt="image" src="https://github.com/user-attachments/assets/5cdfc3e4-bef3-48af-8d55-77169c300f12" />
+<img width="376.6" height="401.8" alt="image" src="https://github.com/user-attachments/assets/5cdfc3e4-bef3-48af-8d55-77169c300f12" />
 
 Current UI in reality:
 <img width="667" height="258" alt="Screenshot 2026-05-31 at 7 57 24 AM" src="https://github.com/user-attachments/assets/e42ae531-47d2-4571-8cb6-d7714648522f" />

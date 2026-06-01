@@ -2,7 +2,7 @@
 I organize your files.
 ---
 Don't you ever get annoyed because your desktop looks like this: 
-<img width="569.5" height="174.5" alt="Screenshot 2026-05-31 at 7 44 41 AM" src="https://github.com/user-attachments/assets/5cb3446c-086a-42dd-989e-a3800a06bdd0" />
+<img width="569.5" height="424.5" alt="Screenshot 2026-05-31 at 7 44 41 AM" src="https://github.com/user-attachments/assets/5cb3446c-086a-42dd-989e-a3800a06bdd0" />
 
 Or because your downloads folder takes you an hour to scroll through:
 

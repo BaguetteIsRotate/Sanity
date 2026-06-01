@@ -7,7 +7,7 @@ Me: https://github.com/BaguetteIsRotate
 Don't you ever get annoyed because your desktop looks like this: 
 <img width="569.5" height="424.5" alt="Screenshot 2026-05-31 at 7 44 41 AM" src="https://github.com/user-attachments/assets/5cb3446c-086a-42dd-989e-a3800a06bdd0" />
 
-Or because your downloads folder takes you an hour to scroll through:
+or because your downloads folder takes you an hour to scroll through:
 
 <img width="400.5" height="529.5" alt="Screenshot 2026-05-31 at 7 45 32 AM" src="https://github.com/user-attachments/assets/f93859dc-3f72-43e4-ae55-0a2f249a36b0" />
 

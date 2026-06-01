@@ -7,6 +7,7 @@ Don't you ever get annoyed because your desktop looks like this:
 Or because your downloads folder takes you an hour to scroll through:
 
 <img width="400.5" height="529.5" alt="Screenshot 2026-05-31 at 7 45 32 AM" src="https://github.com/user-attachments/assets/f93859dc-3f72-43e4-ae55-0a2f249a36b0" />
+
 (Images Source: Own Work)
 
 Well, I've definitely been there and want to help you *not* be there because messy files are a ticket to **Procrastination Land**.

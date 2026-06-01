@@ -14,7 +14,7 @@ Well, I've definitely been there and want to help you *not* be there because mes
 And when you get to **Procrastination Land**, there is no escape.
 
 As Tim Urban has said in his ... interesting TED talk, for many procrastinators "the frustration wasn’t that they couldn’t achieve their dreams; it was that they weren’t even able to start chasing them". 
-(Watch Tim Urban's TED Talk: [https://www.youtube.com/watch?v=arj7oStGLkU])
+(Watch Tim Urban's TED Talk: https://www.youtube.com/watch?v=arj7oStGLkU)
 
 Sounds *really* fun, right? (It really isn't.)
 
@@ -31,6 +31,6 @@ Current UI in reality:
 (I promise, I'm working on it.)
 
 *What are those java files?*
-Oh, FortuneTeller, you mean? Here: [https://github.com/BaguetteIsRotate/Evil-Fortune-Teller]
+Oh, FortuneTeller, you mean? Here: https://github.com/BaguetteIsRotate/Evil-Fortune-Teller
 
-Also, if you like Wordle: [https://github.com/BaguetteIsRotate/Buttons] 
+Also, if you like Wordle: https://github.com/BaguetteIsRotate/Buttons

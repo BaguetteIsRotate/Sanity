@@ -1,9 +1,6 @@
 # Sanity
 I organize your files.
 ---
-Me: https://github.com/BaguetteIsRotate
-
----
 Don't you ever get annoyed because your desktop looks like this: 
 <img width="569.5" height="424.5" alt="Screenshot 2026-05-31 at 7 44 41 AM" src="https://github.com/user-attachments/assets/5cb3446c-086a-42dd-989e-a3800a06bdd0" />
 
@@ -13,15 +10,15 @@ or because your downloads folder takes you an hour to scroll through:
 
 (Images Source: Own Work)
 
-Well, I've definitely been there and want to help you *not* be there because messy files are a ticket to **Procrastination Land**.
-And when you get to **Procrastination Land**, there is no escape.
+Well, I've definitely been there and want to help you *not* be there because . . . **Procrastination Land**.
+And there is no escape from **Procrastination Land**.
 
-As Tim Urban has said in his ... interesting TED talk, for many procrastinators "the frustration wasn’t that they couldn’t achieve their dreams; it was that they weren’t even able to start chasing them". 
-(Watch Tim Urban's TED Talk: https://www.youtube.com/watch?v=arj7oStGLkU)
+As Tim Urban has said, for many procrastinators "the frustration wasn’t that they couldn’t achieve their dreams; it was that they weren’t even able to start chasing them."  
+(https://www.youtube.com/watch?v=arj7oStGLkU)
 
 Sounds *really* fun, right? (It really isn't.)
 
-But good thing for you, because this program helps you organize your files.
+And so this program helps you organize your files.
 At least, it will once I get it to start working.
 
 # Fun stuff

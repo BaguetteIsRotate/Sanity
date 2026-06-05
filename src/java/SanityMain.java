@@ -11,14 +11,14 @@ public class SanityMain{
     public static void main(String[] args){
         JFrame baguette = new JFrame("Sanity");
         baguette.setLayout(new BorderLayout());
-        baguette.add(new JLabel("Enter file path:"));
         baguette.setSize(700,300);
         baguette.setLocationRelativeTo(null);
         baguette.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
         JPanel top= new JPanel(new FlowLayout());
+        top.add(new JLabel("Enter file path:"));
 
-
+        
         JTextField text = new JTextField(30);
         top.add(text);
         
@@ -43,33 +43,45 @@ public class SanityMain{
             }
         });
 
-        JTextArea label = new JTextArea();
+        DefaultListModel<File> model = new DefaultListModel<>();
+        JList<File> label = new JList<>(model); 
         JScrollPane pane = new JScrollPane(label,JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED,JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
         pane.setWheelScrollingEnabled(true);
         pane.setPreferredSize(new Dimension(600,200) );
-        label.setEditable(false);
-        label.setLineWrap(true);
+        //label.setEditable(false);
+        //label.setLineWrap(true);
         pane.setVisible(false);
-        
+        JPanel left= new JPanel(new FlowLayout());
+        left.add(pane);
+        baguette.add(left, BorderLayout.LINE_START);
+
         JPanel right= new JPanel(new FlowLayout());
-
-        right.add(pane);
-
-        baguette.add(right, BorderLayout.CENTER);
+        JTextArea label2 = new JTextArea();
+        label2.setEditable(false);
+        label2.setLineWrap(true);
+        JScrollPane pane2 = new JScrollPane(label2,JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED,JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+        pane2.setWheelScrollingEnabled(true);
+        pane2.setPreferredSize(new Dimension(600,200) );
+        right.add(pane2);
+        JButton button3 = new JButton("Save");
+        button3.setPreferredSize(new Dimension(100,30));
+        baguette.add(button3, BorderLayout.SOUTH);
+        baguette.add(right, BorderLayout.LINE_END);
 
         baguette.setVisible(true);
 
         text.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e){
+                model.clear();
                 ArrayList<File> result = Sanity.getFileNames(text.getText());
-                String outputplease = "Files in folder:"+"\n";
+                //String outputplease = "Files in folder:"+"\n";
                 for(File file: result){
-                    outputplease+=file.getAbsolutePath();
-                    outputplease+="\n";
+                    model.addElement(file);
+                    //outputplease+="\n";
                 }
-                label.setText(outputplease);
                 text.setText("");
                 pane.setVisible(true);
+                baguette.setSize(1268,310);
                 baguette.revalidate();
             }
         });

@@ -21,7 +21,7 @@ Sounds *really* fun, right? (It really isn't.)
 And so this program helps you organize your files.
 At least, it will once I get it to start working.
 
-# Fun stuff
+Fun stuff
 ---
 Current design for the UI:
 
